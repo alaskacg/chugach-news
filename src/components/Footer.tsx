@@ -6,19 +6,19 @@ const Footer = () => {
     <footer className="bg-secondary/80 border-t border-border/50 py-6">
       <div className="container mx-auto px-3">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          {/* Brand with Logo */}
+          {/* Brand with Logo - Side by Side Layout */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-3 mb-2">
+            <div className="flex items-center gap-4">
               <img 
                 src={chugachLogo} 
                 alt="Chugach News" 
-                className="h-18 w-auto rounded"
+                className="w-auto rounded flex-shrink-0"
                 style={{ height: '4.5rem' }}
               />
+              <p className="text-muted-foreground text-xs max-w-xs">
+                Your trusted source for news, weather, and community updates from the heart of the Chugach Region. Serving Valdez, Cordova, Whittier, and surrounding communities.
+              </p>
             </div>
-            <p className="text-muted-foreground text-xs mt-2 max-w-sm">
-              Your trusted source for news, weather, and community updates from the heart of the Chugach Region. Serving Valdez, Cordova, Whittier, and surrounding communities.
-            </p>
           </div>
 
           {/* Regional Links */}
@@ -26,9 +26,9 @@ const Footer = () => {
             <h4 className="font-semibold text-sm mb-2 text-foreground">Regional News</h4>
             <ul className="space-y-1 text-xs text-muted-foreground">
               <li><a href="https://anchoragechronicle.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Anchorage Chronicle</a></li>
-              <li><a href="https://alcannews.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Alcan News</a></li>
+              <li><a href="https://alaskafires.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Alaska Fires</a></li>
+              <li><a href="https://alaskagoldnews.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Alaska Gold News</a></li>
               <li><a href="https://tongassnews.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Tongass News</a></li>
-              <li><a href="https://chugachnews.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Chugach News</a></li>
               <li><a href="https://kenainews.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Kenai News</a></li>
             </ul>
           </div>
