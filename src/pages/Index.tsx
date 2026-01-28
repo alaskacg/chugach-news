@@ -5,6 +5,7 @@ import HeroSection from '@/components/HeroSection';
 import QuoteCarousel from '@/components/QuoteCarousel';
 import InfoTicker from '@/components/InfoTicker';
 import LatestNews from '@/components/LatestNews';
+import WeatherSection from '@/components/WeatherSection';
 import AlaskaListingsAd from '@/components/AlaskaListingsAd';
 import ConsultingGroupAd from '@/components/ads/ConsultingGroupAd';
 import MiningEquipmentAd from '@/components/ads/MiningEquipmentAd';
@@ -34,11 +35,14 @@ const Index = () => {
       {/* Info Ticker */}
       <InfoTicker />
       
-      {/* Latest News Grid */}
-      <LatestNews />
+      {/* Advanced Weather Section with Radar */}
+      <WeatherSection />
       
       {/* Mining Equipment Ad - Compact Square */}
       <MiningEquipmentAd />
+      
+      {/* Latest News Grid */}
+      <LatestNews />
       
       {/* Alaska Consulting Group Ad - Compact Square */}
       <ConsultingGroupAd />
