@@ -10,6 +10,9 @@ import AlaskaListingsAd from '@/components/AlaskaListingsAd';
 import ConsultingGroupAd from '@/components/ads/ConsultingGroupAd';
 import MiningEquipmentAd from '@/components/ads/MiningEquipmentAd';
 import AlaskanBoatsAd from '@/components/ads/AlaskanBoatsAd';
+import AlaskaFiresAd from '@/components/ads/AlaskaFiresAd';
+import AlaskaGoldNewsAd from '@/components/ads/AlaskaGoldNewsAd';
+import AnchorageChronicleAd from '@/components/ads/AnchorageChronicleAd';
 import Footer from '@/components/Footer';
 import ThemeToggle from '@/components/ThemeToggle';
 import heroImage from '@/assets/hero-chugach-winter.jpg';
@@ -32,6 +35,9 @@ const Index = () => {
       {/* Quote Carousel */}
       <QuoteCarousel />
       
+      {/* Ad: Alaska Fires - Safety/Emergency theme fits after quotes */}
+      <AlaskaFiresAd />
+      
       {/* Info Ticker */}
       <InfoTicker />
       
@@ -41,16 +47,22 @@ const Index = () => {
       {/* Ad: Alaska Consulting Group */}
       <ConsultingGroupAd />
       
+      {/* Latest News Grid */}
+      <LatestNews />
+      
+      {/* Ad: Alaska Gold News - Mining/industry after news */}
+      <AlaskaGoldNewsAd />
+      
       {/* Ad: Mining Equipment */}
       <MiningEquipmentAd />
       
-      {/* Latest News Grid */}
-      <LatestNews />
+      {/* Ad: Anchorage Chronicle - Sister publication */}
+      <AnchorageChronicleAd />
       
       {/* Ad: Alaskan Boats */}
       <AlaskanBoatsAd />
       
-      {/* Ad: Alaska Listings */}
+      {/* Ad: Alaska Listings - Featured before footer */}
       <AlaskaListingsAd />
       
       {/* Footer */}
