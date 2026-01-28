@@ -52,6 +52,9 @@ const Index = () => {
       {/* Advanced Weather Section with Radar */}
       <WeatherSection />
       
+      {/* Tide Chart - Maritime info near weather */}
+      <TideChart />
+      
       {/* Ad: Alaska Consulting Group */}
       <ConsultingGroupAd />
       
@@ -75,9 +78,6 @@ const Index = () => {
       
       {/* Community Spotlight */}
       <LocalSpotlight />
-      
-      {/* Tide Chart */}
-      <TideChart />
       
       {/* Ad: Mining Equipment - Industry theme */}
       <MiningEquipmentAd />

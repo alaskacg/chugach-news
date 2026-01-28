@@ -1,4 +1,4 @@
-import { Clock, Tag, Apple, Play } from 'lucide-react';
+import { Clock, Tag } from 'lucide-react';
 import SnowEffect from './SnowEffect';
 import TopStories from './TopStories';
 
@@ -23,17 +23,6 @@ const HeroSection = ({ heroImage }: HeroSectionProps) => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 items-end">
           {/* Main Story */}
           <div className="lg:col-span-2 animate-fade-in-up">
-            {/* App Download Buttons */}
-            <div className="flex items-center gap-2 mb-4">
-              <button className="flex items-center gap-1.5 px-3 py-1.5 bg-foreground/10 backdrop-blur-sm border border-foreground/20 rounded text-xs text-foreground hover:bg-foreground/20 transition-colors">
-                <Apple className="w-3.5 h-3.5" />
-                <span>App Store</span>
-              </button>
-              <button className="flex items-center gap-1.5 px-3 py-1.5 bg-foreground/10 backdrop-blur-sm border border-foreground/20 rounded text-xs text-foreground hover:bg-foreground/20 transition-colors">
-                <Play className="w-3.5 h-3.5" />
-                <span>Google Play</span>
-              </button>
-            </div>
 
             <div className="max-w-xl">
               <h1 className="font-serif text-2xl md:text-3xl font-bold text-foreground leading-tight glacier-glow">
