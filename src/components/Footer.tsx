@@ -26,8 +26,6 @@ const Footer = () => {
             <h4 className="font-semibold text-sm mb-2 text-foreground">Regional News</h4>
             <ul className="space-y-1 text-xs text-muted-foreground">
               <li><a href="https://anchoragechronicle.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Anchorage Chronicle</a></li>
-              <li><a href="https://alaskafires.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Alaska Fires</a></li>
-              <li><a href="https://alaskagoldnews.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Alaska Gold News</a></li>
               <li><a href="https://tongassnews.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Tongass News</a></li>
               <li><a href="https://kenainews.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Kenai News</a></li>
             </ul>
