@@ -39,12 +39,12 @@ const AlaskaListingsAd = () => {
                   <p className="text-[#c5d0d8] font-semibold text-sm">Alaska Listings</p>
                   <p className="text-[#8a9aa8] text-xs">Alaska's Premier Private Marketplace</p>
                 </div>
-                <span className="px-1.5 py-0.5 bg-[#4a9ead]/20 text-[#4a9ead] text-[10px] font-bold rounded uppercase">Beta</span>
+
               </div>
             </div>
             
             <div className="flex items-center gap-3">
-              <span className="hidden md:block text-[#c5d0d8] text-xs">🎉 FREE 60-day listings during beta!</span>
+              <span className="hidden md:block text-[#c5d0d8] text-xs">🎉 FREE 60-day listings!</span>
               <div className="flex items-center gap-1.5 px-4 py-2 bg-[#4a9ead] hover:bg-[#5ab0bf] text-[#1a2a3a] text-xs font-bold rounded transition-colors">
                 Visit Site
                 <ExternalLink className="w-3 h-3" />
